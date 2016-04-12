@@ -16,5 +16,7 @@ Text like this {n} will be replaced be the ERLT values listed below
  11. best_time_phrase or nothing
 
 **Examples**
+
 lap {6}, time {7}, {11}
+
 {2}, place {1}, lap {6}, time {7}, {11}
