@@ -12,29 +12,16 @@ Installation
 ------------
 
 **Step 1:**
-Python is not included with iOS so you need to buy it.
-Purchase Pythonista at the app store and install it.
-Its $10 for the app. It works on both ipad and iphone. 
-http://omz-software.com/pythonista/
-https://itunes.apple.com/app/pythonista/id528579881
+Python is not included with iOS so you need to buy it. Purchase Pythonista at the app store and install it. Its $10 for the app. It works on both ipad and iphone. see http://omz-software.com/pythonista/ and https://itunes.apple.com/app/pythonista/id528579881
 
 **Step 2:**
-Once you have Pythonista running
-Hit the + at the bottom of the library (left) pane
-Create a folder called EasyRaceLapTimer (or whatever you want, name is not critical)
-Hit + again
-Create an empty script, check your new folder, and name the script ERLTSpeaker.py
-This will create the new script and show its code in the code (right) pane
+Once you have Pythonista running. Hit the + at the bottom of the library (left) pane. Create a folder called EasyRaceLapTimer (or whatever you want, name is not critical). Hit + again. Create an empty script, check your new folder, and name the script "ERLTSpeaker.py". This will create the new script and show its code in the code (right) pane.
 
 **Step 3:**
-Open safari
-Open https://raw.githubusercontent.com/SSPW/ERLTSpeaker/master/iOS/ERLTSpeaker.py
-Select all and copy
+Open safari. Open https://raw.githubusercontent.com/SSPW/ERLTSpeaker/master/iOS/ERLTSpeaker.py. Select all and copy.
 
 **Step 4:**
-Go back to Pythonista
-Paste the clip into the ERLTSpeaker.py code pane
-Changes to the script are saved automatically
+Go back to Pythonista. Paste the clip into the ERLTSpeaker.py code pane. Changes to the script are saved automatically.
 
 
 Execution:
@@ -44,17 +31,13 @@ Execution:
 Open Pythonista
 
 **Step 2:**
-Browse the library pane to the EasyRaceLapTimer folder and the ERLTSpeaker.py script
-Click on the script
-This will open the code (left) pane and open the Console (right) pane
+Browse the library pane to the EasyRaceLapTimer folder and the ERLTSpeaker.py script. Click on the script. This will open the code (left) pane and open the Console (right) pane.
 
 **Step 3:**
-Hit the run (play) button at the top of the ERLTSpeaker.py code pane
+Hit the run (play) button at the top of the ERLTSpeaker.py code pane.
 
 **Step 4:**
-The ERLTSpeaker configuration dialog pops up every time the app starts
-If you have run the app before and configured it and you want the same settings, just hit done.
-If not, goto step 5
+The ERLTSpeaker configuration dialog pops up every time the app starts. If you have run the app before and configured it and you want the same settings, just hit done. If not, goto step 5.
 
 **Step 5:**
 If you are not using the default EasyRaceLapTimer pi image and network setup, then change the ip address for the raspberry pi
@@ -63,7 +46,7 @@ If you are not using the default EasyRaceLapTimer pi image and network setup, th
 Set the Token to the transponder id you want to monitor.
 
 **Step 7:** 
-hit done to start monitoring
+Hit done to start monitoring
 
 Coming Soon
 -----------
