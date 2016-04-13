@@ -6,7 +6,7 @@ These are the steps required to get the ERLTSpeaker working on iOS.
 Before You Start
 ----------------
 
-Make sure your iOS device is on the same network as the EasyRaceLapTimer raspberry pi. Make sure you can load the Monitor tab of the EasyRaceLapTimer webserver, (http://192.168.42.1/monitor for default image and wifi setup). Make sure you are getting updates when transponders pass the sensor array
+Make sure your iOS device is on the same network as the EasyRaceLapTimer raspberry pi. Make sure you can browse the Monitor tab of the EasyRaceLapTimer webserver, (http://192.168.42.1/monitor for default image and wifi setup). Make sure you are getting updates when transponders pass the sensor array or when a new race session is created.
 
 Installation
 ------------

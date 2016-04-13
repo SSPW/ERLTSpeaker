@@ -12,7 +12,7 @@ The version 1.2 of pyttsx works on the following platforms;
 
 Before You Start
 ----------------
-Make sure you are using one of the supported platforms previously listed. Make sure your device is on the same network as the EasyRaceLapTimer raspberry pi. Make sure you can load the Monitor tab of the EasyRaceLapTimer webserver, (http://192.168.42.1/monitor for default image and wifi setup). Make sure you are getting updates when transponders pass the sensor array.
+Make sure you are using one of the supported platforms previously listed. Make sure your device is on the same network as the EasyRaceLapTimer raspberry pi. Make sure you can browse the Monitor tab of the EasyRaceLapTimer webserver, (http://192.168.42.1/monitor for default image and wifi setup). Make sure you are the monitor tabupdates when transponders pass the sensor array or a new race session is created.
 
 Installation
 ------------
