@@ -26,7 +26,7 @@ Download here https://www.python.org/downloads/
 Install pyttsx using the OS specific instructions found here, http://pyttsx.readthedocs.org/en/latest/install.html
 
 **Step 3:**
-Open a browser. Download the two files located here. https://github.com/SSPW/ERLTSpeaker/tree/master/Generic
+Open a browser. Download the .cfg and .py files located here. https://github.com/SSPW/ERLTSpeaker/tree/master/Generic
 Place them in a new folder ERLTGenericSpeaker.
 
 Configuration (windows)
