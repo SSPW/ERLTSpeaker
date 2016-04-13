@@ -49,7 +49,7 @@ except Exception:
 	
 dl = [{'type':'number','title':'Token','key':'token', 'value':token},{'type':'text','title':'Server IP','key':'ip', 'value':ip},{'type':'number','title':'Interval','key':'interval','value':interval},{'type':'number','title':'Timeout','key':'timeout','value':timeout},{'type':'number','title':'Speech Speed','key':'speechspeed','value':speech_speed},{'type':'number','title':'Time Precision','key':'timeprecision','value':time_precision},{'type':'text','title':'Best Time Phrase','key':'besttimephrase','value':best_time_phrase},{'type':'text','title':'Message Format','key':'messageformat','value':message_format}]
 
-form = dialogs.form_dialog('ERLT Speech Monitor', dl)
+form = dialogs.form_dialog('ERLT Speaker Config', dl)
 
 if (form != None):
 	token = form.get('token')
