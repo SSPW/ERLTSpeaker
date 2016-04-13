@@ -30,14 +30,14 @@ def initSpeech(wpm, voice):
         e.setProperty('voice', voice)
         return e;
 
-def speechMessage(e, message):
+def speakMessage(e, message):
         e.say(message)
         e.runAndWait()
 
 #---------------------------------------------------------
         
 try:
-	f1 = open('ERLTconfig.csv','r')
+	f1 = open('ERLTGenericSpeaker.cfg','r')
 	token = readline_stripped(f1)
 	ip = readline_stripped(f1)
 	interval = readline_stripped(f1)
@@ -53,12 +53,12 @@ except Exception:
 	ip = '192.168.42.1'
 	interval = '2'
 	timeout = '1'
-	speech_speed = '200'
+	speech_speed = '150'
 	time_precision = '2'
 	best_time_phrase = 'fastest'
-	message_format = 'lap {6}, time {7}, {11}'
+	message_format = 'lap {6} time {7} {11}'
 	
-initSpeech(int(speech_speed), 'en-US')
+engine = initSpeech(int(speech_speed), 'en-US')
 
 url = r'http://' + ip + r'/api/v1/monitor'
 
@@ -88,9 +88,8 @@ while True:
 			# check for new session (or race)
 			if (session_title != last_session):
 				last_session = session_title
-				console.clear()
 				print("%s \r\n" % (session_title))
-				speakMessage("new race, " + session_title)
+				speakMessage(engine, "new race, " + session_title)
 	
 			# get data for pilots and times
 			data = monitor.get("data")
@@ -146,12 +145,12 @@ while True:
 						else:
 							message = replacevalue(message, '{11}', '')
 							
-						#speak message
-						speakMessage(message)
-		
 						#print message
 						print(message)
 						print("")
+
+						#speak message
+						speakMessage(engine, message)
 						
 						break
 						
