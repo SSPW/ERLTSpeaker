@@ -29,10 +29,10 @@ Install pyttsx using the OS specific instructions found here, http://pyttsx.read
 Open a browser. Download the .cfg and .py files located here. https://github.com/SSPW/ERLTSpeaker/tree/master/Generic
 Place them in a new folder ERLTGenericSpeaker.
 
-Configuration (windows)
+Configuration
 ----------
 **Step 1:**
-Right-click on ERLTGenericSpeaker.cfg and "open with" and select notepad or wordpad.
+open ERLTGenericSpeaker.cfg a text editor.
 
 **Step 2:**
 Edit the first line to reflect the the transponder id you want to monitor.
@@ -45,6 +45,15 @@ Execution (windows)
 
 **Step 1:**
 Double click on ERLTGenericSpeaker.py or right-click and select open
+
+
+Execution (mac/linux)
+----------
+
+http://pythoncentral.io/execute-python-script-file-shell/
+
+
+
 
 
 Coming Soon
