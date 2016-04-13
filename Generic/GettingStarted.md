@@ -32,7 +32,7 @@ Place them in a new folder ERLTGenericSpeaker.
 Configuration (windows)
 ----------
 **Step 1:**
-Right-click on ERLTGenericSpeaker.py and "open with" and select notepad or wordpad.
+Right-click on ERLTGenericSpeaker.cfg and "open with" and select notepad or wordpad.
 
 **Step 2:**
 Edit the first line to reflect the the transponder id you want to monitor.
