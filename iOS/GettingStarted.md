@@ -1,4 +1,4 @@
-troduction
+Introduction
 ------------
 
 These are the steps required to get the ERLTSpeaker working on iOS.
