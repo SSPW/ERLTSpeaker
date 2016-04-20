@@ -19,8 +19,9 @@ Installation
 
 **Step 1:**
 Install Python 2.7 (latest)
-ERLTGenericSpeaker was developed using Python 2.7.11
-Download here https://www.python.org/downloads/
+ERLTGenericSpeaker was developed using Python 2.7.11. 
+The required pyttsx package does not work with Python3 at the time of development.
+Download Python2.7 here https://www.python.org/downloads/
 
 **Step 2:**
 Install pyttsx using the OS specific instructions found here, http://pyttsx.readthedocs.org/en/latest/install.html
